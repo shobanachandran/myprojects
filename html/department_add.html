@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Garments ERP">
+    <meta name="author" content="Iorange Innovation">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>CLEVER ERP - Department add</title>
+    <!-- Custom CSS -->
+    <!-- Custom CSS -->
+    <link href="dist/css/style.min.css" rel="stylesheet">    
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin5">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon p-l-10">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="assets/images/logo-icon.png" alt="homepage" class="light-logo" />                        
+                        </b>
+                        <!--End Logo icon -->
+                         <!-- Logo text -->
+                        <span class="logo-text">
+                             <!-- dark Logo text -->
+                             <img src="assets/images/logo-text.png" alt="homepage" class="light-logo" />
+                            
+                        </span>
+                    </a>
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+                </div>
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto">
+                        <li class="nav-item d-none d-md-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Last login at 12:00AM</a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="font-24 mdi mdi-comment-processing"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" aria-labelledby="2">
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="">
+                                             <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-success btn-circle"><i class="ti-calendar"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Event today</h5> 
+                                                        <span class="mail-desc">Just a reminder that event</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-info btn-circle"><i class="ti-settings"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Settings</h5> 
+                                                        <span class="mail-desc">You can customize this template</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-primary btn-circle"><i class="ti-user"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Pavan kumar</h5> 
+                                                        <span class="mail-desc">Just see the my admin!</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)" class="link border-top">
+                                                <div class="d-flex no-block align-items-center p-10">
+                                                    <span class="btn btn-danger btn-circle"><i class="fa fa-link"></i></span>
+                                                    <div class="m-l-10">
+                                                        <h5 class="m-b-0">Luanch Admin</h5> 
+                                                        <span class="mail-desc">Just see the my new admin!</span> 
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+						
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+						
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <aside class="left-sidebar" data-sidebarbg="skin5">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav" class="p-t-30">
+					
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+						
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="company_info.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Company Info</span></a></li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Masters</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Admin Master </b></span></a>
+								
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link has-arrow  waves-effect waves-dark"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Users </span></a>
+											<ul aria-expanded="false" class="collapse  third-level">
+												<li class="sidebar-item"><a  class="sidebar-link" href="user_type.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> User Type </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="user_department.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> User Department </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="users.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Users </span></a>
+												</li>									
+												<li class="sidebar-item"><a  class="sidebar-link" href="user_rights.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> User Rights </span></a>
+												</li>
+											</ul>										
+										</li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link has-arrow  waves-effect waves-dark"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Location </span></a>
+											<ul aria-expanded="false" class="collapse  third-level">
+												<li class="sidebar-item"><a  class="sidebar-link" href="state.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> State </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="district.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> District </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="area.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Area </span></a>
+												</li>
+											</ul>										
+										</li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link has-arrow  waves-effect waves-dark"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Ledger </span></a>
+											<ul aria-expanded="false" class="collapse  third-level">
+												<li class="sidebar-item"><a  class="sidebar-link" href="buyer.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Buyer </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="supplier_type.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Supplier Type </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="supplier.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Supplier </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="contractor.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Contractor </span></a>
+												</li>
+												<li class="sidebar-item"><a  class="sidebar-link" href="job_work.html"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Job Work </span></a>
+												</li>
+											</ul>										
+										</li>
+										
+										<li class="sidebar-item"><a  href="department.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Department </span></a></li>
+										
+										<li class="sidebar-item"><a  href="process_master.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Process Master </span></a></li>
+										
+										<li class="sidebar-item"><a  href="ta_management.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> T & A Management </span></a></li>
+										
+										<li class="sidebar-item"><a href="ta_grouping.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> T & A Grouping </span></a></li>
+										
+									</ul>
+									
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Products Master </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+										<li class="sidebar-item"><a href="fabric.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Fabric </span></a></li>
+										<li class="sidebar-item"><a href="yarn.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Yarn </span></a></li>
+										<li class="sidebar-item"><a href="component.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Component </span></a></li>
+										<li class="sidebar-item"><a href="uom.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> UOM  </span></a></li>
+										<li class="sidebar-item"><a href="season.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Season </span></a></li>
+										<li class="sidebar-item"><a href="sample.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> sample </span></a></li>
+										<li class="sidebar-item"><a href="size.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> size </span></a></li>
+										<li class="sidebar-item"><a href="size_group.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> size group </span></a></li>
+										<li class="sidebar-item"><a href="colour.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> colour </span></a></li>
+										<li class="sidebar-item"><a href="colour_group.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> colour group </span></a></li>
+									</ul>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Accessories Master </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+										<li class="sidebar-item"><a href="accessories.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Accessories </span></a></li>
+										<li class="sidebar-item"><a href="buyer_accessories.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Buyer Accessories Template </span></a></li>
+									</ul>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Accounts Master </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+										<li class="sidebar-item"><a href="cash.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Cash Entries </span></a></li>
+										<li class="sidebar-item"><a href="expenses.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Expenses </span></a></li>
+										<li class="sidebar-item"><a href="banking.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Banking </span></a></li>
+										<li class="sidebar-item"><a href="gst.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> GST </span></a></li>
+										<li class="sidebar-item"><a href="investors.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Investors </span></a></li>
+										<li class="sidebar-item"><a href="employees.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Employees </span></a></li>
+										<li class="sidebar-item"><a href="staffs.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Staffs </span></a></li>
+									</ul>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"> Transport master </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+										<li class="sidebar-item"><a href="vehicle.html" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Vehicle </span></a></li>
+									</ul>
+								</li>	
+								
+							</ul>	
+							
+						</li>
+
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Admin</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Approvals </b></span></a>
+								
+									<ul aria-expanded="false" class="collapse  second-level">
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Contractor Approvals </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Costing Approvals </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Yarn PO's Approvals </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Fabric PO's Approvals </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Store Approvals </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Cutting Approvals </span></a></li>
+										
+									</ul>
+									
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Task Manager </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Merch</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Costing Module</b></span></a>
+								
+									<ul aria-expanded="false" class="collapse  second-level">
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Costing Entry </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Knitting Process Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu">Dyeing Entry Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Other Process Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Accessories Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Department Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Fabric Costing </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Expense Costing </span></a></li>
+										
+									</ul>
+									
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Sample Module </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu">Sample Section </span></a></li>
+										
+									</ul>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Order Module </span></a>
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Order Entry </span></a></li>
+										
+									</ul>
+								</li>
+
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Knitting Planning </b></span></a>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Deying Planning </b></span></a>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process Planning </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Yarn</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Yarn Inward </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process DC Out</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process DC In</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>DC Out 
+								Return </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process To Production </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Duplicate DC Print </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Fabric</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Fabric Inward </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process DC Out</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Process DC In</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>DC Out Return </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Cutting DC </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Duplicate DC Print </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Fabric Style Transfer </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Store</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Accessories Inward </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Store DC</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Store Style Transfer </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>	
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Production</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+							
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Work Assign </b></span></a>
+								
+									<ul aria-expanded="false" class="collapse  second-level">
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Work Assign DC </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Work Assign Return DC </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Duplicate DC Print </span></a></li>
+									
+									</ul>
+									
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Work Done </b></span></a>
+								
+									<ul aria-expanded="false" class="collapse  second-level">
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Work Done DC </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Work Done Return DC </span></a></li>
+										
+										<li class="sidebar-item"><a href="javascript:void(0)" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Duplicate DC Print </span></a></li>
+									
+									</ul>
+									
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Ship Out </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">General DC </span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>General DC </b></span></a>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Return DC </b></span></a>
+								</li>
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Duplicate DC </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Accounts</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">								
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Payment Entry </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Contra Voucher </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Credit Note </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Debit Note</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Party Outstanding </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Cash Summary </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Cash Book </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Bank Book </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Day Book </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Profit/Loss Account</b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Trial Balance </b></span></a>
+								</li>
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Balance Sheet </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Buyer</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">								
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Order Status </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">HR </span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+								
+								
+								<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Staff</span></a>
+						
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Staff Salary </b></span></a>
+										</li>
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Staff Attedance</b></span></a>
+										</li>									
+										
+									</ul>	
+							
+								</li>
+								
+								<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Employee</span></a>
+						
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Employee Salary </b></span></a>
+										</li>
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Employee Attedance</b></span></a>
+										</li>									
+										
+									</ul>	
+							
+								</li>
+								
+								<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Contractor</span></a>
+						
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Contractor Salary </b></span></a>
+										</li>
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Contractor Advance</b></span></a>
+										</li>									
+										
+									</ul>	
+							
+								</li>
+								
+								
+								
+								<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Job Work</span></a>
+						
+									<ul aria-expanded="false" class="collapse  second-level">
+									
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Job Work Salary </b></span></a>
+										</li>
+										<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>Job work Advance</b></span></a>
+										</li>									
+										
+									</ul>	
+							
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+						<li class="sidebar-item"><a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Reports</span></a>
+						
+							<ul aria-expanded="false" class="collapse  first-level">
+								
+								
+								<li class="sidebar-item"> <a class="sidebar-link" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu"><b>*** </b></span></a>
+								</li>
+								
+							</ul>	
+							
+						</li>
+						
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <div class="page-wrapper" style="min-height: 100%; height: auto;">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+             <div class="page-breadcrumb">
+                <div class="row">
+                    <div class="col-12 d-flex no-block align-items-center">
+                        <h4 class="page-title">Department Add</h4>
+                        <div class="ml-auto text-right">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="department.html">Department Info</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <div class="container-fluid">               
+                <!-- ============================================================== -->
+                <!-- Sales chart -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+							<div class="card-body">
+							</div>
+								<div class="card-body" style="width:100%">
+									<div class="form-group row">
+										<label for="fname" class="col-sm-3 text-right control-label col-form-label">Department Name</label>
+										<div class="col-sm-3">
+											<input type="text" class="form-control" id="fname" placeholder="Department name">
+										</div>
+									</div>
+									
+									<div class="form-group row">
+										<label for="lname" class="col-sm-3 text-right control-label col-form-label">Description	</label>
+										<div class="col-sm-3">
+											<textarea class="form-control" placeholder="description"></textarea>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="email1" class="col-sm-3 text-right control-label col-form-label">Status</label>
+										<div class="col-sm-6" style="margin-top:10px;">
+											<input type="radio" id="stat-act" value="Active" checked name="status" class="form-group" > Active
+											<input type="radio" id="stat-inact" value="Inactive" name="status" class="form-group" > Inactive
+										</div>
+									</div>
+								</div>
+									
+							<div class="border-top">
+								<div class="card-body" style="margin-left: 250px;">
+									<button type="submit" class="btn btn-success">Save</button>
+									<button type="submit" class="btn btn-primary">Reset</button>
+									<a href="department.html"><button type="submit" class="btn btn-danger">Back</button></a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sales chart -->
+                <!-- ============================================================== -->                
+            </div>
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+		 
+    </div>
+    <!-- End Wrapper -->
+	<!-- ============================================================== -->
+            <!-- footer -->
+            <footer class="footer text-center" style="color: #000;">
+                All Rights Reserved by <b style="color: #007eff;">CLEVER ERP</b>. Designed and Developed by <a href="http://www.iorange.in/"><b style="color: orange;">IOrange Innovation</b></a>
+			</footer>
+            <!-- End footer -->
+            <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+</body>
+</html>
